@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Onvard",
   description:
-    "Onvard helps you uncover hidden job opportunities by building smarter Google string searches for company career pages.",
+    "Onvard helps people search better and move forward by turning one idea into a more structured search path.",
 };
 
 export default function RootLayout({
