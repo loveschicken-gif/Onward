@@ -81,7 +81,7 @@ input:focus-visible,
 .hero {
   display: flex;
   justify-content: center;
-  margin-bottom: 2.25rem;
+  margin-bottom: 2.75rem;
 }
 
 .hero-card {
@@ -96,11 +96,11 @@ input:focus-visible,
 
 .hero-header {
   text-align: left;
-  margin-bottom: 1.05rem;
+  margin-bottom: 1.4rem;
 }
 
 .hero-title {
-  font-size: 1.45rem;
+  font-size: 1.65rem;
   font-weight: 650;
   letter-spacing: -0.03em;
   margin-bottom: 0.25rem;
@@ -130,7 +130,7 @@ input:focus-visible,
 }
 
 .hero-subtitle {
-  font-size: 0.98rem;
+  font-size: 1.05rem;
   color: var(--text-muted);
   margin-bottom: 0.3rem;
   line-height: 1.5;
@@ -312,13 +312,13 @@ input:focus-visible,
 }
 
 .submit-btn {
-  min-height: 44px;
-  padding: 0.6rem 1.1rem;
+  min-height: 48px;
+  padding: 0.7rem 1.3rem;
   background: var(--accent);
   color: white;
   border: none;
   border-radius: 999px;
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
   font-weight: 500;
   box-shadow: 0 12px 24px rgba(231, 143, 179, 0.45);
 }
