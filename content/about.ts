@@ -8,11 +8,7 @@ export const aboutContent = {
   productName: "Onvard",
   heading: "About Onvard",
   paragraphs: [
-    "Onvard is our first project focused on helping people uncover hidden job opportunities through smarter Google string search.",
-    "Many platforms already offer resume polishing, coaching, or general job search support. We wanted to take a different approach. Instead of adding more noise to the process, Onvard focuses on improving something job seekers already do every day: searching.",
-    "Our idea is simple: search better for more opportunities.",
-    "The name Onvard reflects that mission. On stands for action and momentum. Vard suggests moving forward, advancing, and taking the next step in your career. What that journey looks like is up to you.",
-    "We are building Onvard for people who want a better way to explore opportunities, save time, and make smarter search decisions without wasting money on tools that do not improve results.",
+    "Onvard is built around a simple idea: during a job search, people are already putting in the effort. We help make that effort better. Instead of only focusing on resume polishing or coaching, Onvard focuses on improving the search itself — helping users find better opportunities through stronger, more structured search paths.",
   ],
   feedback: {
     label: "If you would like to share feedback, we would love to hear from you:",
