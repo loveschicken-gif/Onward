@@ -34,7 +34,7 @@ export default function FilterChips({ controls, onChange }: FilterChipsProps) {
             type="button"
             className={`chip ${controls[key] ? "chip-active" : ""}`}
             onClick={() => toggle(key)}
-            aria-pressed={controls[key]}
+            aria-pressed={!!controls[key]}
           >
             {label}
           </button>
