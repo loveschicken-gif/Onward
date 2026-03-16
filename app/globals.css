@@ -77,6 +77,40 @@ input:focus-visible,
   }
 }
 
+@media (min-width: 1024px) {
+  .page {
+    max-width: 960px;
+    padding: 2.5rem 2rem 3.5rem;
+  }
+
+  .hero {
+    margin-bottom: 3.2rem;
+  }
+
+  .hero-card {
+    padding: 1.9rem 2rem 2.1rem;
+  }
+
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.15rem;
+  }
+
+  .search-section {
+    margin-bottom: 2.25rem;
+  }
+
+  .start-search-btn,
+  .submit-btn {
+    min-height: 50px;
+    padding: 0.85rem 1.6rem;
+    font-size: 1rem;
+  }
+}
+
 /* Hero – centered, premium card */
 .hero {
   display: flex;
