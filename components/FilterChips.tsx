@@ -7,7 +7,7 @@ type FilterChipsProps = {
   onChange: (controls: UserControls) => void;
 };
 
-const CHIPS: { key: keyof Omit<UserControls, "languageMode">; label: string }[] = [
+const CHIPS: { key: keyof Omit<UserControls, "languageMode" | "titleLevel">; label: string }[] = [
   { key: "visaMode", label: "Work-authorization-related keywords" },
   { key: "remoteMode", label: "Remote" },
   { key: "entryLevelMode", label: "Entry Level" },
